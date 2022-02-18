@@ -1,6 +1,12 @@
 # instagram-clone
 
-Instagram clone.
+<<<<<<< HEAD
+
+# Instagram clone.
+
+for Instagram clone.
+
+> > > > > > > be6566ecdab8d47edf066c6e2efc14fbd1ecfb2a
 
 To start using this template:
 
