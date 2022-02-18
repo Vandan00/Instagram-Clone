@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* min-width: 400px; */
+}
+body {
+  width: 100%;
+  min-width: 400px;
+  position: relative;
+}
+
+.container {
+  /* background-color: red; */
+  width: 80%;
+  margin: 0px auto;
+  z-index: -999;
+  /* border: rgb(29, 29, 28) 1px solid; */
+  /* overflow: auto; */
+}
+
+/* Header */
+.header {
+  /* background-color: aqua; */
+  height: 40px;
+  padding: 0px;
+  /* display: flex; */
+}
+h4 {
+  display: inline-block;
+  width: 40%;
+  /* border: turquoise 2px solid; */
+  margin-top: 10px;
+  margin-left: 3px;
+  /* line-height: 1.5em; */
+}
+.header img {
+  /* display: inline-block; */
+  height: 25px;
+  width: 25px;
+  float: right;
+  border-radius: 50px;
+  margin-top: 8px;
+  margin-right: 3px;
+  padding: 1px;
+  border: black 1px solid;
+}
+
+/* Profile */
+.profile {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 0px;
+  /* background-color: darkcyan; */
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  clear: both;
+}
+.profile img {
+  margin-top: 10px;
+  border-radius: 100px;
+}
+h1,
+h3,
+span,
+p {
+  margin: 10px;
+}
+
+/* Media  */
+@media screen and (min-width: 700px) {
+  .main {
+    display: inline-block;
+    width: 100%;
+  }
+  .article {
+    width: 31%;
+    float: left;
+    margin: 10px 0px;
+    /* object-fit: fill; */
+    margin-left: 18px;
+    position: relative;
+  }
+  .image {
+    opacity: 1;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s ease;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main {
+    display: block;
+    width: 100%;
+  }
+  .article {
+    min-width: 300px;
+    width: 80%;
+    margin: 10px auto;
+    /* float: left; */
+    /* margin: 0px auto; */
+    background-color: aqua;
+    /* object-fit: fill; */
+    /* margin-left: 18px; */
+    /* position: relative; */
+  }
+  .image {
+    opacity: 1;
+    width: 100%;
+    /* margin: 10px auto; */
+    height: 250px;
+    transition: 0.5s ease;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 970px) {
+  .main {
+    display: inline-block;
+    width: 100%;
+  }
+  .article {
+    width: 45%;
+    float: left;
+    margin: 10px 0px;
+    /* object-fit: fill; */
+    margin-left: 18px;
+    position: relative;
+  }
+  .image {
+    opacity: 1;
+    width: 100%;
+    height: 250px;
+    transition: 0.5s ease;
+  }
+}
+
+/* 
+.main {
+  display: block;
+  width: 100%;
+  /* justify-content: center;
+  align-items: left; }
+.article {
+  min-width: 300px;
+  /* float: left; */
+/* margin: 10px auto; */
+/* object-fit: fill; */
+/* margin-left: 18px; */
+/* position: relative; */
+/* margin-right: 20px;
+  margin-bottom: 20px; 
+}
+.image {
+  opacity: 1;
+  width: 100%;
+  height: 250px;
+  transition: 0.5s ease;
+} */
+
+/* .article span {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* text-align: center; */
+/* } */
+.chat {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.likes {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image:hover {
+  opacity: 0.3;
+}
+.article:hover span {
+  opacity: 1;
+}
