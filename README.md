@@ -1,4 +1,4 @@
-# template-instagram-clone
+# instagram-clone
 A template for Instagram clone.
 
 To start using this template:
