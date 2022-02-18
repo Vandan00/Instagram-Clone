@@ -1,9 +1,4 @@
-import {
-  createStore,
-  combineReducers,
-  // applyMiddleware, compose
-} from "redux";
-// import thunk from 'redux-thunk';
+import { createStore, combineReducers } from "redux";
 
 import { reducer } from "./reducers/photosReducer";
 const picreducer = combineReducers({
